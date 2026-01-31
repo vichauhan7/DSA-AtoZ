@@ -10,6 +10,11 @@ def print2(n):
             print('*', end='')
         print()
 
+def print3(n):
+    for i in range(n):
+        for j in range(i+1):
+            print(j+1, end='')
+        print()
 
-print1(5)
-print2(5)
+
+print3(5)
