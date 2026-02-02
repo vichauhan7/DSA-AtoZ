@@ -84,5 +84,3 @@ def print10(n):
             print('*', end='')
         print()
 
-
-print10(5)
