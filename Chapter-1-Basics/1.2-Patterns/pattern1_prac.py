@@ -84,3 +84,14 @@ def print10(n):
             print('*', end='')
         print()
 
+
+def print11(n):
+    for i in range(n):
+        for j in range(i+1):
+            print((j+i+1)%2, end='')
+        print()
+
+#print11(5)
+
+
+
