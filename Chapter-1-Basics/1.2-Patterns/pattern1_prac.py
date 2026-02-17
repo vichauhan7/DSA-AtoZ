@@ -91,7 +91,20 @@ def print11(n):
             print((j+i+1)%2, end='')
         print()
 
-#print11(5)
+
+def print12(n):
+    for i in range(n):
+        for j in range(i+1):
+            print(j+1, end='')
+        for j in range( 2*n- ((i+1)  * 2 )):
+            print(' ', end='')
+        for j in range(i+1):
+            print(n - (2*(i+1)) - (2*(j + 1)) ,end='')
+        print()
+
+
+
+print12(5)
 
 
 
